@@ -6,8 +6,8 @@
 
 body{
 	padding: 0.5rem;
-	width: 100%;
-	height: 100%;
+	width: 1000px;
+	height: 1000px;
 }
 
 
@@ -35,8 +35,21 @@ hr{
 }
 
 .square{
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	display: inline-block;
 	border: 2px solid;
 }
+
+.button{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+
+.dy__none {
+      display : none
+}
+
+
