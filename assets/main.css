@@ -6,8 +6,10 @@
 
 body{
 	padding: 0.5rem;
-	width: 1000px;
-	height: 1000px;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	overflow-x: hidden;
 }
 
 
@@ -37,7 +39,8 @@ hr{
 .square{
 	width: 50px;
 	height: 50px;
-	display: inline-block;
+	display: block;
+	position: absolute;
 	border: 2px solid;
 }
 
